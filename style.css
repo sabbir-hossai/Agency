@@ -1,5 +1,6 @@
 body{
     background-color: rgb(253, 240,233);
+    /* background-image: url('image/Bitmap-1.png'); */
 }
 .header_container{
     font-family: 'Epilogue', sans-serif;
@@ -72,6 +73,24 @@ nav{
  .popular-service{
      display:grid;
      grid-template-columns: repeat(2,1fr);
+     margin-top: 80px;
+ }
+ .popular-service-item{
+     /* border: 1px solid black; */
+     margin-right: 10px;
+     padding: 5px;
+ }
+ .service-item{
+     /* border: 1px solid black; */
+     margin-right: 10px;
+     padding: 5px;
+     
+ }
+ 
+
+ .popular-service .image{
+     margin-top: 50px;
+     padding: 10px;
  }
  .popular-service .title{
      font-weight: 800;
@@ -104,3 +123,140 @@ nav{
     padding: 10px 15px;
  }
  /* main section end */
+
+
+/* subscription section start  */
+.Newsletter-and-Subscribe{
+    width: 80%;
+    margin: auto;
+   
+}
+.Newsletter-and-Subscribe div{
+     
+    display: flex;
+    justify-content: space-between;
+}
+.Newsletter{
+    color: rgb(57, 20, 0);
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 48px;
+}
+.email-section{
+    margin-top:  40px; ;
+}
+.input{
+    padding: 15px 100px;
+    margin-right: 30px;
+    border: 1px solid rgb(243, 209, 191);
+    border-radius: 5px;
+}
+.subscribe-button{
+    padding: 13px 50px;
+    margin-right: 20px;
+    font-weight: 900;
+    font-size: 14px;
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 5px;
+}
+
+/* subscription section end  */
+
+
+ /* <!-- bottom banner start --> */
+ .bottom-banner{
+    background-image: url('image/Rectangle.png');
+    width: 80%;
+    min-height: 544px;
+    margin: auto;
+    /* display: flex;
+    justify-content: space-between; */
+ }
+ .bottom-banner .first-child{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    padding: 30px;
+ }
+ .bottom-banner-content h2 {
+     font-weight: 800;
+     font-size: 56px;
+     color: white;
+ }
+ .bottom-banner-content p {
+     font-weight: 400;
+     font-size: 16px;
+     color: white;
+ }
+ .bottom-banner-content button {
+     padding: 10px 15px;
+     color: rgb(57, 20, 0);
+     background-color: white;
+     font-weight: 900;
+     font-size: 14px;
+     border: 1px solid white;
+     border-radius: 5px;
+ }
+ .bottom-banner-img{
+    width: 246px;   
+    height: 280px;
+ }
+ /* <!-- bottom banner end --> */
+
+
+ /* footer start  */
+ .footer{
+     width: 80%;
+     margin: auto;
+ }
+ .footer-agency{
+    font-weight: 700;
+    font-size: 24px;
+   margin-top:none;
+ }
+ .footer-item{
+    display: flex;
+    justify-content:space-between;
+ }
+  
+
+ .container h5{
+     font-weight: 400;
+     font-size: 16px;
+     margin-top: 32px;
+     color: rgb(239, 109, 88);
+ }
+ .container p a{
+     color: rgb(57, 20, 0);
+     text-decoration: none;
+ }
+
+.social-icons a  {
+    width: 48px;
+    height: 48px;
+    background-color:rgb(239, 109, 88);
+    border: 1px solid rgb(239, 109, 88);
+    border-radius: 50%;
+}
+.social-icons a img{
+     color:rgb(239, 109, 88);
+    /* border: 1px solid rgb(239, 109, 88);
+    border-radius: 50%; */
+}
+
+
+
+ .copy-right-section{
+    display: flex;
+    justify-content:space-between;
+     /* display: grid;
+     grid-template-columns: repeat(2, 1fr); */
+ }
+ .terms-and-condition{
+     display: grid;
+     grid-template-columns: repeat(2, 1fr);
+ }
+ /* footer end  */
