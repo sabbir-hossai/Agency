@@ -1,0 +1,50 @@
+.header_container{
+    font-family: 'Epilogue', sans-serif;
+    height: 400px;
+    width: auto;
+    color: white;
+    background-color:rgb(40,41,62);
+}
+/* .site_name, .site_info{
+    display: inline-block ;
+} */
+nav{
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+    margin-bottom: 40px;
+}
+.nav-bar {
+    text-decoration: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+    margin-bottom: 40px; 
+}
+.nav-bar a {
+    color: white;
+    text-decoration: none;
+}
+.top-banner{
+    /* text-align: center;
+    justify-content: center; */
+    /* padding: 70px 0; */
+  
+  text-align: center;
+}
+.top-banner h1{
+    font-size: 72px;
+     
+    
+}
+.top-banner div p{
+    /* font-weight: 400; */
+    font-size: 16px;
+    line-height: 32px;
+}
+.top-banner-p-div{
+    position: absolute;
+    width: 570px;
+    height: 66px;
+    
+}
