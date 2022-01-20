@@ -1,13 +1,19 @@
+body{
+    background-color: rgb(253, 240,233);
+}
 .header_container{
     font-family: 'Epilogue', sans-serif;
-    height: 400px;
+    min-height: 400px;
     width: auto;
     color: white;
     background-color:rgb(40,41,62);
 }
-/* .site_name, .site_info{
-    display: inline-block ;
-} */
+.site_name {
+    margin-top: 10px;
+    padding: 7px 10px;
+    font-weight: 700;
+    font-size: 24px;
+}
 nav{
     display: flex;
     justify-content: space-around;
@@ -15,15 +21,26 @@ nav{
     margin-bottom: 40px;
 }
 .nav-bar {
-    text-decoration: none;
-    display: flex;
-    justify-content: space-around;
-    padding: 15px;
-    margin-bottom: 40px; 
+    
+    
+    padding: 25px  ;
+    margin-bottom: 40px;
+
 }
 .nav-bar a {
     color: white;
     text-decoration: none;
+    margin-right: 50px;
+}
+.Contact-button button {
+    margin-top: 15px;
+    padding: 7px 10px;
+    border: 1px solid  gray;
+    border-radius: 5px;
+    background-color:rgb(40,41,62);
+    color:white; 
+    font-weight: 900;
+    font-size: 14px;
 }
 .top-banner{
     /* text-align: center;
@@ -37,14 +54,53 @@ nav{
      
     
 }
-.top-banner div p{
-    /* font-weight: 400; */
+.top-banner  p{
+    font-weight: 400;
     font-size: 16px;
     line-height: 32px;
 }
-.top-banner-p-div{
-    position: absolute;
-    width: 570px;
-    height: 66px;
-    
-}
+ /* main section start */
+ .main_section{
+     width: 80%;
+     margin: auto;
+ }
+ .main_section .category{
+     font-weight: 400;
+     font-size: 20px;
+ }
+
+ .popular-service{
+     display:grid;
+     grid-template-columns: repeat(2,1fr);
+ }
+ .popular-service .title{
+     font-weight: 800;
+     font-size: 40px;
+ }
+ .service  {
+     display:grid;
+     grid-template-columns: repeat(3,1fr);
+ }
+ .service .title {
+    font-weight: 700;
+    font-size: 24px;
+ }
+ .date{
+     font-weight: 400;
+     font-size: 16px;
+ }
+ .load-more-button{
+     margin: 68px;
+     
+     text-align: center;
+ }
+ .load-more-button button{
+     color: black;
+     font-weight: 900;
+     font-size: 14px;
+     background-color: white;
+     border: 1px solid gray;
+     border-radius: 5px;
+    padding: 10px 15px;
+ }
+ /* main section end */
